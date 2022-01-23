@@ -1,0 +1,53 @@
+* {
+    padding: 0px;
+    margin: 0px 100px;
+}
+
+body {
+    background-image: url("../image/assassins_creed_hd_crossover.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.abovec {
+    height: 300px;
+    background-color: rgba(204, 47, 47, 0.164);
+    color: white;
+    margin-top: 100vh;
+    text-align: center;
+
+    text-align: justify;
+}
+
+.abovecd {
+    height: 300px;
+    background-color: rgba(204, 47, 47, 0.164);
+    color: white;
+
+    text-align: center;
+
+    text-align: justify;
+}
+
+p {
+    padding: 100px 0px;
+}
+
+.backimgone {
+    background-image: url("../image/eivor_4k_hd_assassins_creed_valhalla_3-3840x2160.jpg");
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.backimgtwo {
+    background-image: url("../image/jones_minotaur_nameless_joules_hd_genesis.jpg");
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
