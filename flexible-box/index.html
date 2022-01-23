@@ -31,7 +31,7 @@
         }
         .polka-style {
             
-            margin: 10px 10px 10px 30px;
+            margin: 10px 10px 10px 40px;
         }
         .flex-container-nav {
             display: flex;
@@ -43,18 +43,32 @@
             border-bottom: 3px solid #f8f8fa;
         }
         .nav-1-ul {
-            margin: 30px 10px 20px 10px;
+            margin: 30px 20px 20px 20px;
+            list-style-type: none;
         }
         .nav-2-ul {
-            margin: 20px 10px 10px 10px;
+            margin: 20px 20px 10px 20px;
+            list-style-type: none;
         }
         .list {
             padding: 10px 20px;
             border-radius: 5px;
         }
-        .list:hover {
-            background-color: #f8f8fa;
-            
+        .list:hover{
+            background-color: #f8f8fa;  
+             
+        }
+        .list:hover a {
+            color:black;
+        }
+        .list:hover .far{
+            color: black;
+        }
+        .list:hover .fas{
+            color: black;
+        }
+        .list:hover .fab {
+            color: black;
         }
         a {
             text-decoration: none;
@@ -68,20 +82,26 @@
         .flex-main-container-header {
             height: 50px;
             display: flex;
+            justify-content: space-around;
             align-items: center;
 
         }
         .search-input {
-            margin: 5px 20px;
+            margin: 5px;
             flex-basis: 70%;
+            
         }
         .upload-meet-btn {
             margin:  10px 30px;
             padding: 10px;
+            border-radius: 5px;
+            background-color: #18dca1;
+            border: none;
+            color: white;
         }
         .far, .fab, .fas {
             padding: 10px;
-            
+            color: grey;
         }
         
     </style>
