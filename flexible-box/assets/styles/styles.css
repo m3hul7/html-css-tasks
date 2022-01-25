@@ -32,7 +32,6 @@ html,body{
     flex-direction: column;
     overflow: auto;
     justify-content: flex-start;
-
 }
 .nav{
     list-style-type: none;
@@ -61,6 +60,7 @@ nav a:hover {
     width: 100%;
     background-color: #f8f8fa;
     border-bottom: 3px solid #f8f8fa;
+    overflow: hidden;
 }
 .flex-header {
     display: flex;
@@ -105,9 +105,14 @@ nav a:hover {
 } 
 .main-content {
     display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow: auto;
 }
 .div {
     width: 100%;
-    
+    flex-shrink: 0;
+    height: 400px;
     background-color: #18dca1;
 }
