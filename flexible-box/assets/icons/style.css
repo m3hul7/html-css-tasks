@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'app';
+  src:  url('fonts/app.eot?34i63m');
+  src:  url('fonts/app.eot?34i63m#iefix') format('embedded-opentype'),
+    url('fonts/app.ttf?34i63m') format('truetype'),
+    url('fonts/app.woff?34i63m') format('woff'),
+    url('fonts/app.svg?34i63m#app') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'app' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-polka:before {
+  content: "\e900";
+}
+.icon-meeting:before {
+  content: "\e901";
+}
+.icon-product:before {
+  content: "\e93a";
+}
+.icon-calendar:before {
+  content: "\e953";
+}
+.icon-account:before {
+  content: "\e976";
+}
+.icon-search:before {
+  content: "\e986";
+}
+.icon-security:before {
+  content: "\e9b4";
+}
+.icon-faq:before {
+  content: "\ea09";
+}
+.icon-sign-out:before {
+  content: "\ea13";
+}
+.icon-calender:before {
+  content: "\ea45";
+}

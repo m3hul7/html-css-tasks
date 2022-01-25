@@ -5,137 +5,96 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="https://kit.fontawesome.com/c757d3a8e3.js" crossorigin="anonymous"></script>
-    <style>
-        html,body{
-            height: 100%;
-            overflow: hidden;
-        }
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-        .flex-container {
-            display: flex;
-            height:100%; 
-        }
-        .flex-sidebar {
-            width: 25%;
-            background-color: white;
-        }
-        .polka {
-            height: 50px;
-            border-bottom: 3px solid #f8f8fa;
-            
-        }
-        .polka-style {
-            margin: 10px 10px 10px 40px;
-        }
-        .flex-container-nav {
-            display: flex;
-            height: 100%; 
-            flex-direction: column;
-            overflow: auto;
-        }
-        .nav-1 {
-            border-bottom: 3px solid #f8f8fa;
-        }
-        .nav-1-ul {
-            margin: 30px 20px 20px 20px;
-            list-style-type: none;
-        }
-        .nav-2-ul {
-            margin: 20px 20px 10px 20px;
-            list-style-type: none;
-        }
-        .list {
-            padding: 10px 20px;
-            border-radius: 5px;
-        }
-        .list:hover{
-            background-color: #f8f8fa;  
-             
-        }
-        .list:hover a {
-            color:black;
-        }
-        .list:hover .far{
-            color: black;
-        }
-        .list:hover .fas{
-            color: black;
-        }
-        .list:hover .fab {
-            color: black;
-        }
-        a {
-            text-decoration: none;
-            color: grey;
-        }
-        .flex-main-container {
-            width: 75%;
-            background-color: #f8f8fa;
-            border-bottom: 3px solid #f8f8fa;
-        }
-        .flex-main-container-header {
-            height: 50px;
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-
-        }
-        .search-input {
-            margin: 5px;
-            flex-basis: 70%;
-            
-        }
-        .upload-meet-btn {
-            margin:  10px 30px;
-            padding: 10px;
-            border-radius: 5px;
-            background-color: #18dca1;
-            border: none;
-            color: white;
-        }
-        .far, .fab, .fas {
-            padding: 10px;
-            color: grey;
-        }
-        
-    </style>
+    <!-- <script src="https://kit.fontawesome.com/c757d3a8e3.js" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" class="d-flex align-item-center" href="assets/icons/style.css">
+    <link rel="stylesheet" class="d-flex align-item-center" href="assets/styles/styles.css">
 </head>
 <body>
     <section class="flex-container">
+
         <section class="flex-sidebar">
-            <section class="polka">
-                <p class="polka-style"><i class="fas fa-th"></i>POLKA</p>
-            </section>
-            <section class="flex-container-nav">
-                <nav class="nav-1 nav">
-                    <ul class="nav-1-ul">
-                        <li class="list"><i class="far fa-dot-circle"></i><a href="#">Meetings</a></li>
-                        <li class="list"><i class="far fa-calendar"></i><a href="#">Calendar</a></li>
-                        <li class="list"><i class="fas fa-not-equal"></i><a href="#">Compare</a></li>
+
+            <div class="polka">
+                <a  class="d-flex align-item-center" href="#">
+                    <span class="icon icon-polka"></span>
+                    <span>POLKA</span>
+                </a>
+            </div>
+            
+            <nav class="flex-two-nav">
+                <div class="nav">
+                    <ul>
+                        <li></i>
+                            <a class="d-flex align-item-center" href="#">
+                                <span class="icon icon-meeting"></span>
+                                <span>Meeting</span>
+                            </a></li>
+                        <li>
+                            <a class="d-flex align-item-center" href="#">
+                                <span class="icon icon-calendar"></span>
+                                <span>Calender</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="d-flex align-item-center" href="#">
+                                <span class="icon icon-calender"></span>
+                                <span>Compare</span>
+                            </a>
+                        </li>
                     </ul>    
-                </nav>
-                <nav class="nav-2 nav">
-                    <ul class="nav-2-ul">
-                        <li class="list"><i class="far fa-user-circle"></i><a href="#">Account</a></li>
-                        <li class="list"><i class="far fa-question-circle"></i><a href="#"> Faq</a></li>
-                        <li class="list"><i class="fab fa-product-hunt"></i><a href="#">Product</a></li>
-                        <li class="list"><i class="fas fa-shield-alt"></i><a href="#">Security</a></li>
-                        <li class="list"><i class="fas fa-sign-out-alt"></i><a href="#">Sign Out</a></li>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li>
+                            <a class="d-flex align-item-center" href="#">
+                                <span class="icon icon-account"></span>
+                                <span>Account</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="d-flex align-item-center" href="#">
+                                <span class="icon icon-faq"></span>
+                                <span>Faq</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="d-flex align-item-center" href="#">
+                                <span class="icon icon-product"></span>
+                                <span>Product</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="d-flex align-item-center" href="#">
+                                <span class="icon icon-security"></span>
+                                <span>Security</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="d-flex align-item-center" href="#">
+                                <span class="icon icon-sign-out"></span>
+                                <span>Sign Out</span>
+                            </a>
+                        </li>
                     </ul>   
-                </nav>
-            </section>
+                </div>
+            </nav>
+            
         </section>
+
         <section class="flex-main-container">
-            <header class="header flex-main-container-header">
-                <input class="search-input" type="search" placeholder="Enter a keyword here">
+            <header class="flex-header">
+                <div>
+                    <input class="search-input" type="search" placeholder="Enter a keyword here">
+                    <span class="icon-search"></span>
+                </div>
                 <button class="upload-meet-btn">Upload a meeting</button>
             </header>
+            <section class="main-content">
+                <div class="div"></div>
+                <div class="div"></div>
+            </section>
         </section>
+
     </section>
     
 </body>
